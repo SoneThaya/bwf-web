@@ -31,7 +31,7 @@ function GroupList() {
       {groups &&
         groups.map((group) => {
           return (
-            <p>
+            <p key={group.id}>
               {group.name}: {group.location}
             </p>
           );

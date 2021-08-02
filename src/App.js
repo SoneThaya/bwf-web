@@ -1,12 +1,18 @@
 import React from "react";
 import "./App.css";
-import GroupList from "./components/group-list";
+import Header from "./components/header";
+import Sidebar from "./components/sidebar";
+import Main from "./components/main";
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <GroupList />
+        <Header />
+        <div>
+          <Sidebar />
+          <Main />
+        </div>
       </header>
     </div>
   );
