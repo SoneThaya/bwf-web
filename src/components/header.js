@@ -1,9 +1,10 @@
 import React from "react";
+import logo from "../assets/logo_frame.png";
 
 const Header = () => {
   return (
     <div className="header">
-      <h1>BetWithFriends</h1>
+      <img src={logo} alt="BWF logo" height="150" />
     </div>
   );
 };
