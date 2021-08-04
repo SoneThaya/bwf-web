@@ -7,13 +7,11 @@ import Main from "./components/main";
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
-        <div>
-          <Sidebar />
-          <Main />
-        </div>
-      </header>
+      <Header />
+      <div className="general-content">
+        <Sidebar />
+        <Main />
+      </div>
     </div>
   );
 };
